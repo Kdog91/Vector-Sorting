@@ -1,0 +1,5 @@
+Code Reflection
+
+In this project, I developed a C++ console application that implements two sorting algorithms—selection sort and quicksort—to sort a vector of Bid structs. Each bid includes fields such as ID, title, fund, and amount, and the data is imported from a CSV file. I used a vector container to store the bids after parsing each line from the CSV using file I/O and string manipulation. The primary goal was to sort the bids by title and measure the performance of each algorithm using high-resolution clocks.
+
+One challenge I faced was optimizing the sorting functions for large datasets while ensuring the output remained accurate and efficient. Quicksort’s recursive nature made it more complex, especially when tracking the correct partition index, but I was able to verify its behavior with smaller sets and validate the results by printing intermediate outputs. I also added timing functionality to compare the performance of both algorithms. This project strengthened my understanding of sorting algorithms, file parsing in C++, and the use of standard data structures like vectors in real-world applications.
